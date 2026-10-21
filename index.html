@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras</title>
+</head>
+<body>
+    <h1>Imprimir figuras</h1>
+    <form>
+        <label for="fig">Figura: </label>
+        <select id="fig" name="fig">
+            <option value="1">Triangulo</option>
+            <option value="2">Rectangulo</option>
+        </select><br><br>
+        <label for="car">Caracter: </label>
+        <input type="text" placeholder="*" name="caracter" id="car"><br><br>
+
+        <label for="altura">Altura: </label>
+        <input type="number" placeholder="1" name="caracter" id="altura"><br><br>
+        <div id="agrupado" hidden=true>
+            <label for="base">Base: </label>
+            <input type="number" placeholder="1" name="base" id="base">
+        </div>
+        <br>
+        <br>
+        <button id="btnMostrar">Mostrar</button>
+        <br>
+        <br>
+        <label for="resul">Resultado: </label>
+        <textarea id="resul" name="result" placeholder="10" rows="20" cols="20">
+        </textarea><br><br>
+        <label for="rei"></label>
+        <br>
+        <input type="reset">
+    </form>
+
+    
+
+    <script src="evidencia2practica2.js"></script>
+</body>
+</html>
